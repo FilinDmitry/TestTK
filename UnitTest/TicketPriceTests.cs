@@ -3,6 +3,9 @@ using System;
 using TestTK;
 namespace UnitTest
 {
+    /// <summary>
+    /// Класс для тестирования функции рачета цены билета
+    /// </summary>
     [TestClass]
     public class TicketPriceTests
     {
