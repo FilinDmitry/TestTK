@@ -49,7 +49,7 @@ namespace TestTK
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            TB_result.Text = defaultText + Calculations.TicketPrice(TB_dist.Text, TB_kol.Text, ticketClass).ToString("N2");
+            TB_result.Text = defaultText + Calculations.TicketPrice(TB_dist.Text, TB_kol.Text, ticketClass).ToString("N2") + "руб.";
         }
 
         
