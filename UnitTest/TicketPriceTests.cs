@@ -14,6 +14,8 @@ namespace UnitTest
         {
             Assert.AreEqual(Calculations.TicketPrice("100", "2", 0), 1600, 0.1);
             Assert.AreEqual(Calculations.TicketPrice("100", "2", 1), 1760, 0.1);
+            Assert.AreEqual(Calculations.TicketPrice("100", "2", 2), 1920, 0.1);
+            Assert.AreEqual(Calculations.TicketPrice("100", "2", 3), 2080, 0.1);
         }
         [TestMethod]
         public void Pos_Test_Dist_Dot_and_Comma()
